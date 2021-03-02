@@ -1,7 +1,5 @@
 extern __errno_location
-
-section .text
-	global ft_read
+global ft_read
 
 ft_read:
 	mov rax, 0

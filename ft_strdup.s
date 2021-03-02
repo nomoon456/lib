@@ -1,9 +1,7 @@
 extern malloc
 extern ft_strlen
 extern ft_strcpy
-
-section .text
-	global ft_strdup
+global ft_strdup
 
 ft_strdup:
 	mov rdx, rdi
