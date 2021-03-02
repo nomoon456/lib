@@ -1,9 +1,9 @@
-section .text
-	global ft_strdup
+extern _malloc
+extern _ft_strlen
+extern _ft_strcpy
 
-extern malloc
-extern ft_strlen
-extern ft_strcpy
+section .text
+	global _ft_strdup
 
 ft_strdup:
 	mov rdx, rdi
