@@ -6,7 +6,7 @@
 /*   By: nomoon <nomoon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 18:16:04 by elbouju           #+#    #+#             */
-/*   Updated: 2021/03/02 18:13:49 by nomoon           ###   ########.fr       */
+/*   Updated: 2021/03/02 18:35:56 by nomoon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 #include <string.h>
 #include <fcntl.h>
 #include <string.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 
 extern	int	ft_strlen(char *str);
 extern	char	*ft_strcpy(char *dest, const char *src);
