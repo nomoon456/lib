@@ -5,7 +5,7 @@ extern _ft_strcpy
 section .text
 	global _ft_strdup
 
-ft_strdup:
+_ft_strdup:
 	mov rdx, rdi
 	push rdx
 	call ft_strlen
